@@ -17,7 +17,7 @@ h1{
 
 nav{
     background: #f9f9f9;
-    width: 300px;
+    width: 250px;
     position: fixed;
     top: 45px;
     left: 10px;
@@ -32,6 +32,10 @@ nav:hover{
     transition: all 0.5s ease;
 }
 
+nav > li > a {
+    font-size: 1vw;
+}
+
 p{
     margin-top: 0.5%;
 }
@@ -39,4 +43,37 @@ p{
  h2, h3, p, ul, ol, div, img , hr {
     width: 70%;
     margin: 0px auto;
+}
+
+.img_apart{
+    width: 30%;
+    margin-left: 15% ;
+    margin-top: 2%;
+}
+
+h1 + p{
+    margin-top: 8px;
+    line-height: 32px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+blockquote{
+    margin-top: 30px;
+    margin-left: 20%;
+    border-left: 2px solid palevioletred;
+    width: 60%;
+    padding: 1%;
+}
+
+.container_img{
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-top: 2%;
+}
+
+.container_img > img{
+    width: 30%;
+    margin-right: 2%;
 }
