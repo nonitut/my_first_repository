@@ -18,6 +18,10 @@ h1{
 nav{
     background: #f9f9f9;
     width: 250px;
+    height: 90vh;
+    /*  height: 90vh; - добавили высоту */
+    overflow-y: scroll;
+    /*  overflow-y: scroll;  - скролл по оси вертикальной */
     position: fixed;
     top: 45px;
     left: 10px;
@@ -71,6 +75,7 @@ blockquote{
     /* display: flex;
     justify-content: flex-start; */
     margin-top: 2%;
+    background: #ebdcdc;
 }
 
 .container_img > img{
