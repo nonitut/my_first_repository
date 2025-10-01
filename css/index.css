@@ -44,7 +44,7 @@ p{
     margin-top: 0.5%;
 }
 
- h2, h3, p, ul, ol, div, img , hr {
+ h2, h3, p, ul, ol, img , hr {
     width: 70%;
     margin: 0px auto;
 }
@@ -81,4 +81,69 @@ blockquote{
 .container_img > img{
     width: 30%;
     margin-right: 2%;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 3vw ;
+    background: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 255, 0.3) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_img{
+    width: 10%;
+}
+
+.header > div{
+    margin: 0 2%;
+    width: 20%;
+}
+
+.header_a{
+    position: relative;
+    margin-left: 2%;
+    word-wrap: nowrap;
+}
+
+.header > div > a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.section_main{
+    width: 100%;
+    /* background: #ebdcdc; */
+    display: flex;
+
+}
+
+.main_div{
+    width: 50%;
+}
+
+.main_div > img {
+    /* width: 100%; */
+    margin-left: 15%;
+    margin-top: 4%;
+}
+
+.main_div > p{
+  width: 50%;
+}
+
+
+.test > div{
+    width: 30%;
+    height: 300px;
+    background: palevioletred;
+    margin: 1% ;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 300px;
+    color: #f9f9f9;
 }
